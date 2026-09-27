@@ -1,0 +1,20 @@
+Elden Ring Native Controller UI
+Copyright (C) 2026 Luna(a492219408)
+SPDX-License-Identifier: GPL-3.0-only
+
+This project's original source code and accompanying documentation are licensed
+under version 3 ONLY of the GNU General Public License. This is not an
+"or any later version" grant. See LICENSE for the complete license text.
+
+This program is distributed WITHOUT ANY WARRANTY; without even the implied
+warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+
+Game assets, game trademarks and the game content visible in promotional
+screenshots are owned by their respective rights holders and are not relicensed
+under this project's GPL. No game resource files are distributed in the runtime
+or corresponding-source archives. See THIRD_PARTY_NOTICES.md (source archive)
+or THIRD_PARTY_NOTICES.txt (runtime archive).
+
+The corresponding source for version 1.0.1 is provided as
+elden-ring-controller-ui-1.0.1-source.zip alongside the runtime download.
+Keep it available with every distribution of the matching DLL.

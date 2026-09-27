@@ -1,0 +1,45 @@
+# AI 指令仅供本地使用；所有层级都排除，不能强制加入索引。
+AGENTS.md
+
+# Rust 构建与发布产物
+/target/
+/dist/
+/experiments/
+/assets/
+/截图/
+/packaging/nexusmods/gallery/
+/packaging/nexusmods/
+/packaging/github/
+/docs/
+/state/
+/agent-context/
+/publishing/
+/local/
+/private/
+/.private/
+/local-test.me3
+/测试纯DLL.bat
+__pycache__/
+*.pyc
+*.log
+*.dmp
+
+# 本机逆向分析产物
+/.analysis/
+/analysis/
+
+# IDE 元数据
+/.idea/
+*.iml
+
+# 不提交游戏或 ModEngine3 二进制
+*.exe
+*.dll
+*.pdb
+*.gfx
+*.dcx
+*.dds
+*.tpf
+*.fmg
+*.gpr
+*.rep/

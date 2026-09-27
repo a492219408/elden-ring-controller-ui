@@ -1,0 +1,27 @@
+* text=auto
+*.rs text eol=lf
+*.toml text eol=lf
+*.yml text eol=lf
+*.py text eol=lf
+*.ps1 text eol=crlf
+*.png binary
+# 上游声明保持原字节，不参与换行规范化。
+/third_party/Rust-COPYRIGHT-library.html -text
+AGENTS.md export-ignore
+**/AGENTS.md export-ignore
+/docs export-ignore
+/state export-ignore
+/agent-context export-ignore
+/publishing export-ignore
+/local export-ignore
+/packaging/nexusmods export-ignore
+/packaging/github export-ignore
+/assets export-ignore
+/analysis export-ignore
+/截图 export-ignore
+/experiments export-ignore
+/dist export-ignore
+/target export-ignore
+/local-test.me3 export-ignore
+/测试纯DLL.bat export-ignore
+/packaging/nexusmods/gallery export-ignore

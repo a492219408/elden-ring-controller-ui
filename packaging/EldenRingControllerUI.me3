@@ -1,0 +1,12 @@
+profileVersion = "v1"
+start_online = false
+
+[[supports]]
+game = "eldenring"
+
+[[natives]]
+path = 'natives/EldenRingControllerUI.dll'
+optional = false
+enabled = true
+load_early = true
+initializer = { function = "elden_ring_controller_ui_init" }

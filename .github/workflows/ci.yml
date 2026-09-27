@@ -1,0 +1,38 @@
+name: CI
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  build:
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v7.0.1
+        with:
+          persist-credentials: false
+      - uses: dtolnay/rust-toolchain@1.96.0
+        with:
+          targets: x86_64-pc-windows-msvc
+          components: clippy,rustfmt
+      - name: Build without proprietary fixtures
+        shell: pwsh
+        run: ./scripts/build.ps1
+      - name: Package runtime and corresponding source
+        shell: pwsh
+        run: |
+          ./scripts/package.ps1 -SkipBuild
+          ./scripts/package-source.ps1
+          $version = (Select-String -Path Cargo.toml -Pattern '^version\s*=\s*"([^"]+)"$').Matches.Groups[1].Value
+          ./scripts/verify-package.ps1 -PackageDirectory "dist/EldenRingControllerUI-$version" -SourceArchive "dist/elden-ring-controller-ui-$version-source.zip"
+      - uses: actions/upload-artifact@v7.0.1
+        with:
+          name: EldenRingNativeControllerUI
+          path: |
+            dist/*.zip
+            dist/*.sha256
+          if-no-files-found: error

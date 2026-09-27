@@ -1,0 +1,25 @@
+[package]
+name = "elden-ring-controller-ui"
+version = "1.0.1"
+edition = "2024"
+authors = ["Luna(a492219408)"]
+license = "GPL-3.0-only"
+rust-version = "1.96"
+description = "Game-native controller UI preset selection for Elden Ring through ModEngine3"
+publish = false
+
+[features]
+default = []
+# 仅本地测试使用自备的官方样本；永远不在非测试 DLL 中编译资源。
+game-fixtures = []
+
+[lib]
+name = "EldenRingControllerUI"
+crate-type = ["cdylib", "rlib"]
+
+[profile.release]
+codegen-units = 1
+lto = "thin"
+opt-level = "s"
+panic = "abort"
+strip = "symbols"
