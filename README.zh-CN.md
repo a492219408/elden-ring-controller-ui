@@ -89,4 +89,6 @@ DLL 所在目录须可写，以保存 INI/日志；operating_lines 功能已移�
 
 Copyright (C) 2026 Luna(a492219408)。[GPL-3.0-only](LICENSE)，只许可 GPL 第 3 版，不是 or-later；
 参见 [NOTICE](NOTICE) 和 [第三方/游戏素材说明](THIRD_PARTY_NOTICES.md)。不提供任何担保。
-发布 DLL 时应同时提供同版本对应源码包，不以游戏素材充当 GPL 源码的一部分。
+源码在 [GitHub 公开仓库](https://github.com/a492219408/elden-ring-controller-ui)，请选择与 MOD 版本对应的标签
+（本版为 v1.0.1）。Nexus Mods 不上传源码压缩包。再分发 DLL 时请保持其对应源码可获取，
+不以游戏素材充当 GPL 源码的一部分。

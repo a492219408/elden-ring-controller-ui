@@ -48,5 +48,6 @@ DLL 所在目录须可写；diagnostics=true 增加耗时统计，false 仍记�
 许可与源码
 Copyright (C) 2026 Luna(a492219408)。仅 GNU GPL 第 3 版，不提供任何担保。
 参见 LICENSE.txt、NOTICE.txt、THIRD_PARTY_NOTICES.txt。
-同版本源码包 elden-ring-controller-ui-1.0.1-source.zip 与本运行包一起提供下载。
-再分发时也应提供对应源码。游戏素材及商标不属于本项目 GPL 代码授权。
+源码在 GitHub 公开仓库：https://github.com/a492219408/elden-ring-controller-ui
+请选择与 MOD 版本对应的标签，本版为 v1.0.1。Nexus Mods 不上传源码压缩包。
+再分发 DLL 时请保持对应源码可获取。游戏素材及商标不属于本项目 GPL 代码授权。

@@ -54,6 +54,8 @@ To uninstall, remove/disable the native entry after exiting the game.
 LICENSE AND SOURCE
 Copyright (C) 2026 Luna(a492219408). GNU GPL version 3 ONLY; no warranty.
 See LICENSE.txt, NOTICE.txt and THIRD_PARTY_NOTICES.txt.
-Matching source: elden-ring-controller-ui-1.0.1-source.zip, provided alongside
-this download. Redistributors must also provide the matching corresponding source.
+Source code: https://github.com/a492219408/elden-ring-controller-ui
+Use the tag matching your mod version (v1.0.1 for this release).
+Source archives are not hosted on Nexus Mods. Please keep the matching
+corresponding source available when redistributing the DLL.
 Game assets and trademarks are not covered by this project's code license.

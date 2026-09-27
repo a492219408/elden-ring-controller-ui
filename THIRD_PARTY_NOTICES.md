@@ -35,8 +35,9 @@ Nexus 宣传截图为维护者提供的实机截图；封面是基于这些截�
 
 ## 源码分发
 
-请把同版本 elden-ring-controller-ui-<版本>-source.zip 与运行包一并提供下载，
-并在下载页面给出明确的对应源码入口。源码包包含修改、构建和安装所需的原创文件与脚本，
+源码在 [GitHub 公开仓库](https://github.com/a492219408/elden-ring-controller-ui)，
+Nexus Mods 不上传源码 ZIP。请在运行包下载页面给出明确的源码入口，并关联与 DLL 同版本的标签／提交。
+公开源码及本地生成的对应源码包包含修改、构建和安装所需的原创文件与脚本，
 可在不持有测试 GFX 的情况下构建 DLL。无须将私有 Git 历史或官方样本上传。
 
 许可文本来源：[SPDX GPL-3.0-only](https://spdx.org/licenses/GPL-3.0-only.html)。

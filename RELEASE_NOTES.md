@@ -9,7 +9,7 @@ Game 1.17.1 compatibility update (2026-09-27).
 
 Both real executable samples pass all 59 offline tests; the public asset-free suite passes 26 tests. The seven relevant UI archive entries are unchanged, and all eight generated UI outputs match 1.0.0. Game 1.17.1 visual regression testing is still pending; no game was launched during this update.
 
-Download `EldenRingControllerUI-1.0.1.zip` with its checksum. Matching GPL-3.0-only source is `elden-ring-controller-ui-1.0.1-source.zip`. Keep your INI settings. Exit the game before replacing the DLL; do not load both versions at once. No `assets/` entry is needed.
+Download `EldenRingControllerUI-1.0.1.zip` with its checksum. Matching GPL-3.0-only source is available in the [public GitHub repository](https://github.com/a492219408/elden-ring-controller-ui), under tag `v1.0.1`. Source archives are not hosted on Nexus Mods. Keep your INI settings. Exit the game before replacing the DLL; do not load both versions at once. No `assets/` entry is needed.
 
 简体中文：为游戏 1.17.1 增加经验证的独立函数地址配置，继续支持 1.17；不是简单放宽哈希。
 界面资源与布局逻辑保持不变，两版离线测试通过，1.17.1 的实机画面仍需用户回归。
